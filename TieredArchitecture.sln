@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieredArchitecture.Presentation", "TieredArchitecture\TieredArchitecture.Presentation.csproj", "{78F8A9CF-5708-436E-88D8-251761422DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{854BB6FE-10A3-407E-94F0-07690A2B87D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{A67EF3F0-17B9-4B08-A284-2A922615AF07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{57B30BEC-6630-4BA2-9BA4-C134B959FA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieredArchitecture.Database", "TieredArchitecture.Database\TieredArchitecture.Database.csproj", "{8F72146C-2CDA-44EE-BC12-CFCDEDA1EDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieredArchitecture.Business", "TieredArchitecture.Business\TieredArchitecture.Business.csproj", "{D0051A85-275A-488F-BBBE-CB7F309ACB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F8A9CF-5708-436E-88D8-251761422DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F8A9CF-5708-436E-88D8-251761422DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F8A9CF-5708-436E-88D8-251761422DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F8A9CF-5708-436E-88D8-251761422DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F72146C-2CDA-44EE-BC12-CFCDEDA1EDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F72146C-2CDA-44EE-BC12-CFCDEDA1EDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F72146C-2CDA-44EE-BC12-CFCDEDA1EDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F72146C-2CDA-44EE-BC12-CFCDEDA1EDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0051A85-275A-488F-BBBE-CB7F309ACB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0051A85-275A-488F-BBBE-CB7F309ACB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0051A85-275A-488F-BBBE-CB7F309ACB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0051A85-275A-488F-BBBE-CB7F309ACB44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78F8A9CF-5708-436E-88D8-251761422DDC} = {854BB6FE-10A3-407E-94F0-07690A2B87D1}
+		{8F72146C-2CDA-44EE-BC12-CFCDEDA1EDBE} = {57B30BEC-6630-4BA2-9BA4-C134B959FA3E}
+		{D0051A85-275A-488F-BBBE-CB7F309ACB44} = {A67EF3F0-17B9-4B08-A284-2A922615AF07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC54BA4-BF13-4B2D-B227-ACB1FDFE4E54}
+	EndGlobalSection
+EndGlobal
